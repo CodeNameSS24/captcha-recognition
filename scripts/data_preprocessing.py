@@ -6,8 +6,11 @@ import os
 from PIL import Image
 import cv2
 
-# Path setup
-data_path = r"C:\Users\Lenovo\Downloads\archive\samples"
+# Get the directory of the current Python file
+current_dir = os.path.dirname(__file__)
+
+# Construct the relative path to the dataset
+data_path = os.path.join(current_dir, "..", "samples")
 
 # Load and preprocess images
 def load_images(path):
