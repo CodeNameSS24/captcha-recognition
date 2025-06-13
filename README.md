@@ -13,7 +13,6 @@ This repository contains a comprehensive solution for CAPTCHA recognition using 
 - Transfer learning implementation with customizable models
 - Training and evaluation scripts with detailed metrics
 - Inference API for real-time CAPTCHA solving
-- Support for popular CAPTCHA formats (reCAPTCHA, hCaptcha, etc.)
 
 ## Installation
 - Clone the repository: `git clone https://github.com/CodeNameSS24/captcha-recognition.git`
